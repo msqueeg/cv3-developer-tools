@@ -21,5 +21,7 @@ cv3-credentials.json
 !/store/files_upload
 /store/files_docs*
 !/store/files_docs
+/store/files_docs/client*
 !/store/files_docs/client
+/store/files_docs/developer/*
 !/store/files_docs/developer
