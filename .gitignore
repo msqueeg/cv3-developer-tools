@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 npm-debug.log
+store.json
 
 cv3-credentials.json
 
@@ -11,3 +12,14 @@ cv3-credentials.json
 /extract/store/*
 !/extract/store
 !/extract/store/README.md
+
+/store/templates/*
+!/store/templates
+/store/files_code/*
+!/store/files_code
+/store/files_upload/*
+!/store/files_upload
+/store/files_docs*
+!/store/files_docs
+!/store/files_docs/client
+!/store/files_docs/developer
