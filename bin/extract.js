@@ -7,6 +7,9 @@ const glob = require('glob');
 const moment = require('moment');
 const extract = require('extract-zip');
 
+//__dirname
+//console.log("the current working directory is" + process.cwd());
+
 const timestamp = moment().unix();
 
 let store = require('../store');
@@ -31,8 +34,8 @@ const process = (src, dest) => {
   });
 };
 
-process('./extract/store/', './store/');
-process('./extract/bootstrap/', './extract/bootstrap/bootstrap');
+process('../extract/store/', '../store/');
+process('../extract/bootstrap/', '../extract/bootstrap/bootstrap');
 
 store.lastUpdate = parseInt(timestamp);
 
